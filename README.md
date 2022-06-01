@@ -14,6 +14,10 @@ GETTING STARTED
 
           git checkout <name-of-your-assigned-branch> e.g. git checkout header/footer
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 08ae19c69c118b1246037bc40ee228ebb68f6c9a
 4.  When you're done with writing your code, using the; git status, git add ., git commit and git push commands to push your work to your remote branch (the online version of your assigned branch)
 
 5.  Instructions on how to create a create a pull-request will be given out on the slack channel.
@@ -26,6 +30,9 @@ TASK/BRANCH ASSIGNMENT
 
 3. Akorode Giyasat : header/footer sections (branch-name: header/footer)
 
+<<<<<<< HEAD
 4. Izima Obisike : checkout-page sections (branch-name: checkout-branch)
 
+=======
+>>>>>>> 08ae19c69c118b1246037bc40ee228ebb68f6c9a
 Note: Names will be added to this document after further task assignments have been done
