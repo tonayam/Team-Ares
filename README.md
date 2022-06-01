@@ -1,6 +1,5 @@
 # KC2-Ares
 
-
 GETTING STARTED
 
 1.  Clone the repository by Copying the HTTPS link. Open the terminal in your vs code and type in the following command
@@ -23,10 +22,12 @@ TASK/BRANCH ASSIGNMENT
 
 1. Austin Tonayam (Team Lead) : project administrator
 
-2. Oriyomi Aladesuru : cart-page (branch-name: cart-branch)
+2. Oriyomi Aladesuru : catalog-page (branch-name: catalog-branch)
 
-3. Akorode Giyasat : header/footer sections (branch-name: header/footer)
+3. Akorode Giyasat : navbar/footer sections (branch-name: navbar/footer-branch)
 
 4. Izima Obisike : checkout-page sections (branch-name: checkout-branch)
+
+5. Amos Thibault Bikari : product-details-page (branch-name: productDetail-branch)
 
 Note: Names will be added to this document after further task assignments have been done
