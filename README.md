@@ -2,6 +2,8 @@
 
 GETTING STARTED
 
+You can get started on this project by Forking the repository. After that, follow the steps below.
+
 1.  Clone the repository by Copying the HTTPS link. Open the terminal in your vs code and type in the following command
 
           git clone <https code from the github repository>
@@ -34,17 +36,21 @@ TASK/BRANCH ASSIGNMENT
 
 7. Susan Chekosgei : cart-page (branch-name: cart-branch)
 
+8. Igah Abiye : home-page (branch-name: home-branch)
+
+9. Oyinwumi
+
 
 COMMITING AND PUSHING TO GITHUB (TO YOUR REMOTE BRANCH)
 
-After substantial work has been done on your branch in your local machine, commiting the changes and pushing it to your remote branch is neccessary.
+After completing your assigned task on your branch in your local machine, commiting the changes and pushing it to your remote branch is neccessary.
 
 1. Use the "git status" command in the terminal to check for changes that have been made in your local repository
 2. Use the "git add ." command to add all the changes made
 3. Use the "git commit -m "<your custom message>"" to commit the changes and prepare them for pushing
 4. Use the "git push" to send the updates in your local repository to your remote branch(the github website branch)
 
-NOTE : Commits made must contain substantial progress.
+NOTE : Commits made must contain complete tasks.
           
 CREATING A PULL REQUEST
           
