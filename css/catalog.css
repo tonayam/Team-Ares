@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+#hero-section {
+  position: relative;
+}
+
+.hero-image {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(37, 37, 37, 0.45),
+      rgba(37, 37, 37, 0.45)
+    ),
+    url(../Images/catalogPage-images/hero-image.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 70vh;
+}
+
+.hero-text {
+  position: absolute;
+  margin-top: -215px;
+}
+
+#section1 {
+  position: relative;
+  min-height: 50vh;
+}
+
+#section1::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(37, 37, 37, 0.45),
+      rgba(37, 37, 37, 0.45)
+    ),
+    url(../Images/catalogPage-images/Vector1.png);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.2;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 280px;
+  left: 100px;
+  transform: translate(-50%, -50%);
+}
+
+.card1 {
+  height: 300px;
+}
+
+.card2-img {
+  background-image: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.65) -16.21%,
+      rgba(196, 196, 196, 0) 118.83%
+    ),
+    url(../Images/catalogPage-images/section1-card1.png);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  position: relative;
+}
+
+.card2-img::before,
+.card3-img::before,
+.card4-img::before {
+  content: " ";
+  background-color: white;
+  height: 100%;
+  position: absolute;
+}
+
+.card3-img {
+  background-image: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.65) -16.21%,
+      rgba(196, 196, 196, 0) 118.83%
+    ),
+    url(../Images/catalogPage-images/section1-card2.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 350px;
+  position: relative;
+}
+
+.card4-img {
+  background-image: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.65) -16.21%,
+      rgba(196, 196, 196, 0) 118.83%
+    ),
+    url(../Images/catalogPage-images/section1-card3.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 350px;
+  position: relative;
+}
+
+#promo-banner {
+  overflow: hidden;
+}
+
+#promo-banner .conatiner {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-text {
+  clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+  margin-right: -20px;
+}
+
+.left-text p {
+  width: 90%;
+}
+
+.right-img {
+  clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0 100%);
+  margin-left: -110px;
+}
+
+@media (max-width: 769px) {
+  .left-text {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    margin-right: 0px;
+  }
+
+  .left-text p {
+    width: 100%;
+  }
+
+  .right-img {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 426px) {
+  .left-text {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    margin-right: 0px;
+  }
+
+  .left-text p {
+    width: 100%;
+  }
+
+  .right-img {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}

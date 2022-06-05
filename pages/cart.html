@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KC2-Ares | Cart</title>
+    <!-- BOOTSTRAP CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="../css/cart.css" />
+    <link rel="stylesheet" href="../css/navbar-footer.css" />
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <!-- BOOTSTRAP ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- NABVAR -->
+    <!-- Giyata code start -->
+    <section class="logo-section">
+      <div class="first text-center mt-4">
+        <a href="../index.html"
+          ><img src="../Images/navbar-footer-images/default.png" alt="logo"
+        /></a>
+      </div>
+    </section>
+    <nav class="navbar navbar-expand-lg bg">
+      <div class="container">
+        <a class="navbar-brand text-success" href="#">
+          <img src="../Images/navbar-footer-images/search.png" alt="search" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-6 fw-normal">
+            <li class="nav-item pe-4">
+              <a class="nav-link" aria-current="page" href="../index.html"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link text-black" href="./catalog.html">CATALOG</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link text-black" href="./prodcutDetail.html"
+                >PRODUCTS DETAILS</a
+              >
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link text-black" href="showrooms.html">SHOWROOMS</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link text-black" href="company.html">COMPANY</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link text-black" href="./checkout.html">CHECKOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+          <div class="nav-images d-flex">
+            <a class="first pe-4" href="./cart.html">
+              <img src="../Images/navbar-footer-images/cart.png" />
+            </a>
+            <a class="second pe-4" href="#">
+              <img src="../Images/navbar-footer-images/favorite.png" />
+            </a>
+            <a class="third" href="#">
+              <img src="../Images/navbar-footer-images/profile.png" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- CART-PAGE CONTENT -->
+    <!-- Susan code start -->
+    <div class="cart-section">
+      <div class="shopping">
+        <div class="container my-5">
+          <h1>Shopping Cart</h1>
+          <a href="./catalog.html">
+            <div class="arrow-text d-flex align-items-center">
+              <div class="arrow me-2">
+                <img
+                  src="../Images/cartPage-images/Arrow-1.png"
+                  alt="arrow"
+                  width="31px"
+                />
+              </div>
+              <div class="text-section">
+                <h6>Continue Shopping</h6>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="price-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-6 col-lg-8">
+              <table class="table table-borderless table-sm">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col" class="pt-3">unit price</th>
+                    <th scope="col" class="pt-3">QTY</th>
+                    <th scope="col" class="pt-3">Total SAR</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">
+                      <div class="row1 d-flex">
+                        <div class="image-sec ps-2">
+                          <img
+                            src="../Images/cartPage-images/table-image.png"
+                            alt="image-1"
+                            width="55px"
+                            height="65px"
+                          />
+                        </div>
+                        <div class="txt my-2">
+                          <h6 class="text-center ms-2">product name</h6>
+                          <p class="fw-lighter ms-2">
+                            <small>Lorem Ipsum</small>
+                          </p>
+                        </div>
+                      </div>
+                    </th>
+                    <td>
+                      <div class="price my-5">
+                        <h6>199.0</h6>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="rectangle my-5">
+                        <img
+                          src="../Images/cartPage-images/Group 5231.png"
+                          alt="rectangle-1"
+                          width="49px"
+                          height="15px"
+                        />
+                      </div>
+                    </td>
+                    <td>
+                      <div class="total-sar d-flex">
+                        <div class="total my-5">
+                          <h6>199.0</h6>
+                        </div>
+                        <div class="icon my-5 ms-2">
+                          <img
+                            src="../Images/cartPage-images/delete 1.png"
+                            alt="delete"
+                            width="15px"
+                            height="15px"
+                          />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">
+                      <div class="row1 d-flex">
+                        <div class="image-sec ps-2">
+                          <img
+                            src="../Images/cartPage-images/table-image.png"
+                            alt="image-1"
+                            width="55px"
+                            height="65px"
+                          />
+                        </div>
+                        <div class="txt my-2">
+                          <h6 class="text-center ms-2">product name</h6>
+                          <p class="fw-lighter ms-2">
+                            <small>Lorem Ipsum</small>
+                          </p>
+                        </div>
+                      </div>
+                    </th>
+                    <td>
+                      <div class="price my-5">
+                        <h6>199.0</h6>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="rectangle my-5">
+                        <img
+                          src="../Images/cartPage-images/Group 5231.png"
+                          alt="rectangle-1"
+                          width="49px"
+                          height="15px"
+                        />
+                      </div>
+                    </td>
+                    <td>
+                      <div class="total-sar d-flex">
+                        <div class="total my-5">
+                          <h6>199.0</h6>
+                        </div>
+                        <div class="icon my-5 ms-2">
+                          <img
+                            src="../Images/cartPage-images/delete 1.png"
+                            alt="delete"
+                            width="15px"
+                            height="15px"
+                          />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">
+                      <div class="row1 d-flex">
+                        <div class="image-sec ps-2">
+                          <img
+                            src="../Images/cartPage-images/table-image.png"
+                            alt="image-1"
+                            width="55px"
+                            height="65px"
+                          />
+                        </div>
+                        <div class="txt my-2">
+                          <h6 class="text-center ms-2">product name</h6>
+                          <p class="fw-lighter ms-2">
+                            <small>Lorem Ipsum</small>
+                          </p>
+                        </div>
+                      </div>
+                    </th>
+                    <td>
+                      <div class="price my-5">
+                        <h6>199.0</h6>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="rectangle my-5">
+                        <img
+                          src="../Images/cartPage-images/Group 5231.png"
+                          alt="rectangle-1"
+                          width="49px"
+                          height="15px"
+                        />
+                      </div>
+                    </td>
+                    <td>
+                      <div class="total-sar d-flex">
+                        <div class="total my-5">
+                          <h6>199.0</h6>
+                        </div>
+                        <div class="icon my-5 ms-2">
+                          <img
+                            src="../Images/cartPage-images/delete 1.png"
+                            alt="delete"
+                            width="15px"
+                            height="15px"
+                          />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-4 col-md-6 col-lg-4">
+              <div class="voucher-section">
+                <div class="container">
+                  <div class="d-flex justify-content-between">
+                    <div class="text-head mt-3">
+                      <h5>Do you have a voucher?</h5>
+                    </div>
+                    <div class="disable-text mt-3">
+                      <p><small>(Optional)</small></p>
+                    </div>
+                    <div class="icon mt-3">
+                      <img
+                        src="../Images/cartPage-images/Vector 7.png"
+                        alt="vecto-7"
+                        width="15px"
+                        height="8px"
+                      />
+                    </div>
+                  </div>
+                  <div class="button d-flex y-3">
+                    <div class="light-button">
+                      <button type="button" class="btn btn-light">
+                        Enter the code
+                      </button>
+                    </div>
+                    <div class="dark-button ms-5">
+                      <button type="button" class="btn btn-dark">Redeem</button>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between my-3">
+                    <div class="text-1">
+                      <h6><small>Subtotal</small></h6>
+                      <p><small>shipping</small></p>
+                    </div>
+                    <div class="text-2">
+                      <h6><small>138,00 SAR</small></h6>
+                      <p><small>5,91 SAR</small></p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-between my-3">
+                    <div class="text-1 d-flex">
+                      <div class="txt">
+                        <h6><small>Total</small></h6>
+                      </div>
+                      <div class="txt2 ms-2">
+                        <p>(VAT included.)</p>
+                      </div>
+                    </div>
+                    <div class="texte-2">
+                      <h6><small>143,91 SAR</small></h6>
+                    </div>
+                  </div>
+                  <a href="./checkout.html">
+                    <div class="d-grid">
+                      <button class="btn btn-dark mb-5" type="button">
+                        safe to checkout
+                      </button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-section bg-white">
+        <div class="container">
+          <div class="text-center my-5">
+            <h4>Recently Viewed Products</h4>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col ms-2 mb-3 shadow-sm">
+              <div
+                class="product-1 d-flex align-items-center justify-content-center flex-column"
+                data-aos="zoom-in"
+              >
+                <img
+                  src="../Images/cartPage-images/11 1.png"
+                  alt="product-1"
+                  width="250px"
+                  height="300px"
+                />
+                <h5 class="text-center fs-6 pt-3">Windsor White Oak</h5>
+                <div class="d-flex justify-content-center">
+                  <div class="num1-text me-2">
+                    <p><small>449.99 SAR</small></p>
+                  </div>
+                  <div class="num2-text">
+                    <h6>312.49 SAR</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col ms-2 mb-3 shadow-sm">
+              <div
+                class="product-1 d-flex align-items-center justify-content-center flex-column"
+                data-aos="zoom-in"
+              >
+                <img
+                  src="../Images/cartPage-images/10 1.png"
+                  alt="product-2"
+                  width="250px"
+                  height="300px"
+                />
+                <h5 class="text-center fs-6 pt-3">Sicily Grey Décor 30×60</h5>
+                <div class="d-flex justify-content-center">
+                  <div class="num1-text me-2">
+                    <p><small>449.99 SAR</small></p>
+                  </div>
+                  <div class="num2-text">
+                    <h6>312.49 SAR</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col ms-2 mb-3 shadow-sm">
+              <div
+                class="product-1 d-flex align-items-center justify-content-center flex-column"
+                data-aos="zoom-in"
+              >
+                <img
+                  src="../Images/cartPage-images/9 61.png"
+                  alt="product-3"
+                  width="250px"
+                  height="300px"
+                />
+                <h5 class="text-center fs-6 pt-3">Sardinia White</h5>
+                <div class="d-flex justify-content-center">
+                  <div class="num1-text me-2">
+                    <p><small>449.99 SAR</small></p>
+                  </div>
+                  <div class="num2-text">
+                    <h6>312.49 SAR</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col ms-2 mb-3 shadow-sm">
+              <div
+                class="product-1 d-flex align-items-center justify-content-center flex-column"
+                data-aos="zoom-in"
+              >
+                <img
+                  src="../Images/cartPage-images/8 1.png"
+                  alt="product-4"
+                  width="250px"
+                  height="300px"
+                />
+                <h5 class="text-center fs-6 pt-3">Sicily Grey 30×60</h5>
+                <div class="d-flex justify-content-center">
+                  <div class="num1-text me-2">
+                    <p><small>449.99 SAR</small></p>
+                  </div>
+                  <div class="num2-text">
+                    <h6>312.49 SAR</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <!-- Giyata code start -->
+    <footer class="footer bg-dark text-white pt-4">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div
+            class="col-12 col-md-3 col-lg-4 col-xl-3 me-auto mb-4 d-flex d-md-block justify-content-center"
+          >
+            <div class="top-footer">
+              <div class="first text-start mb-5">
+                <img
+                  src="../Images/navbar-footer-images/footer-logo.png"
+                  alt="logo"
+                />
+              </div>
+              <div class="socialmedia text-start mt-5 ps-4 ps-md-0">
+                <a class="facebook pr-5 text-decoration-none" href="">
+                  <img src="../Images/navbar-footer-images/fb.png" />
+                </a>
+                <a class="twitter px-4 text-decoration-none" href="">
+                  <img src="../Images/navbar-footer-images/tweet.png" />
+                </a>
+                <a class="instagram text-decoration-none" href="">
+                  <img src="../Images/navbar-footer-images/insta.png" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="fw-bolder mb-4">Products</h6>
+            <p>
+              <a
+                aria-current="page"
+                href="#!"
+                class="text-reset text-decoration-none fw-normal"
+                >Sandstone</a
+              >
+            </p>
+            <p>
+              <a class="text-reset text-decoration-none fw-lighter" href="#!"
+                >Stone</a
+              >
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none fw-lighter"
+                >Cement</a
+              >
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none fw-lighter"
+                >Softstone</a
+              >
+            </p>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-reset text-decoration-none fw-bold mb-4">
+              Services
+            </h6>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none fw-lighter"
+                >Measurement Service</a
+              >
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none fw-lighter"
+                >Product Advice</a
+              >
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none fw-lighter"
+                >Interior design</a
+              >
+            </p>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0">
+            <h6 class="text-decoration-none fw-bold mb-4">
+              Contact Information
+            </h6>
+            <p class="text-reset text-decoration-none fw-normal">
+              3181 Al Imam Saud Ibn Abdul Aziz Branch Rd,
+            </p>
+            <p></p>
+            <p class="text-reset text-decoration-none fw-normal">
+              An Nuzhah, Riyadh 12474,
+            </p>
+            <p class="text-reset text-decoration-none fw-normal">
+              Saudi Arabia
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center text-md-start pt-5 bg-dark text-white fixed">
+        <div class="container">Copyright &copy;2022 | All Rights Reserved.</div>
+      </div>
+      <div
+        class="text-center text-md-end bg-dark text-white ps-md-5 pt-3 pt-md-0"
+      >
+        <div class="container pb-5">
+          Created with love by
+          <a href="#" class="text-reset text-decoration-none fw-bold"
+            >Aresgroup.Kodecamp</a
+          >
+        </div>
+      </div>
+    </footer>
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 1000,
+      });
+    </script>
+  </body>
+</html>

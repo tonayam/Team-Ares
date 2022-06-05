@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-reset {
+  --bs-text-opacity: 1;
+  color: white, var(--bs-text-opacity) !important;
+}
+
+body {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
