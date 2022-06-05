@@ -1,32 +1,43 @@
-.default-img img{
-    width: 162px;
-    height: 57px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.arrow-text .arrow img{
-    width: 31px;
-    height: 0px;
-    color: black;
+
+body {
+  font-family: "Fira Sans Condensed", sans-serif;
 }
-.shopping{
-    width: 100%;
-    height: 140px;
+
+.default-img img {
+  width: 162px;
+  height: 57px;
 }
-.light-button button{
-    border: 1px solid lightgrey;
+.arrow-text .arrow img {
+  width: 41px;
+  /* height: 0px; */
+  color: black;
 }
-.dark-button button{
-    border: 1px solid black;
+.shopping {
+  width: 100%;
+  height: 140px;
 }
-.buttom-checkout{
-    width: 374px;
-    height: 52;
+.light-button button {
+  border: 1px solid lightgrey;
 }
-.voucher-section, .table{
-    background:whitesmoke;
+.dark-button button {
+  border: 1px solid black;
 }
-p{
-    font-size: 10px;
+.buttom-checkout {
+  width: 374px;
+  height: 52;
 }
-.num2-text h6{
-    font-size: 15px !important;
+.voucher-section,
+.table {
+  background: whitesmoke;
+}
+p {
+  font-size: 10px;
+}
+.num2-text h6 {
+  font-size: 15px !important;
 }
