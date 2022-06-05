@@ -1,0 +1,234 @@
+#main{
+    background:url(/Images/home-images/main\ image.png);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:60vh;
+}
+#main p{
+    font-size:11px;
+}
+#main .btn{
+    font-size:14px;
+}
+#main h3{
+    font-size:32px;
+}
+.title::before{
+    content:'';
+    width:120px;
+    height:5px;
+    background: #C4C4C4;
+    position:absolute;
+    transform:translateY(43px);
+}
+#tile-collection .title::before {
+    content: '';
+    width: 120px;
+    height: 5px;
+    background: #C4C4C4;
+    position: absolute;
+    margin-left: 31px;
+    transform: translateY(43px);
+}
+.product{
+    position: absolute;
+    top:88%;
+    left:24px;
+    right:0;
+    bottom:0;
+}
+.products {
+    position: absolute;
+    top: 30%;
+    left: 31px;
+    right: 0;
+    bottom: 0px;
+}
+.kitchen{
+    position: absolute;
+    left:67%;
+    bottom:0;
+    top:54%;
+}
+.products-1 {
+    position: absolute;
+    top: 75%;
+    left: 26px;
+    right: 0;
+    bottom: 0px;
+}
+span{
+    line-height:1;
+}
+.peace{
+    position: absolute;
+    right:12px;
+    bottom:0;
+}
+/* #products p{
+    font-size:12px;
+} */
+.vision{
+    position: absolute;
+    top:22%;
+    left:-74px;
+    bottom:0;
+    right:0;
+}
+.small-image{
+    position: absolute;
+    top:51%;
+    left:0;
+    bottom:0;
+    right:0;
+}
+.row-cols-md-3>* {
+    width: 24.333333%;
+}
+small{
+    font-size:10px;
+}
+.show{
+    position:absolute;
+    top:55px;
+    left:89%;
+    bottom:0;
+    right:0;
+}
+ .btn{
+    border-radius:unset;
+}
+.btn:focus{
+    outline:none;
+    box-shadow: none;
+}
+.creative{
+    font-size:16px;
+}
+/* Responsive page */
+@media screen and (max-width:768px){
+.show {
+    position: absolute;
+    top:-29px;
+    left:77%;
+}
+.vision {
+    position: absolute;
+    top: 9%;
+    left: 11px;
+    bottom: 0;
+    right: 0;
+}
+#main h3 {
+    font-size: 21px;
+}
+.small-image {
+    position: absolute;
+    top: 54%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.creative p{
+    font-size:12px;
+}
+.creative .fs-1 {
+    font-size: calc(1.375rem + 0.5vw)!important;
+}
+.creative .btn {
+    font-size: 14px;
+}
+.hail p{
+    font-size:10px;
+}
+.hail .h4, h4 {
+    font-size: calc(1.275rem + -0.7vw);
+}
+.products {
+    position: absolute;
+    top: 26%;
+    left: 20px;
+    right: 0;
+    bottom: 0px;
+}
+.products-1 {
+    position: absolute;
+    top: 75%;
+    left: 20px;
+    right: 0;
+    bottom: 0px;
+}
+}
+
+/* responsive mobile screen */
+@media screen and (max-width:425px){
+    .fear{
+        position: absolute;
+        top:-30%;
+        left:10px;
+        bottom:0;
+        right:0;
+    }
+    .sweet {
+        position: absolute;
+        top: 88%;
+        left: 11px;
+        bottom: 0;
+    }
+    #main-mobile h3{
+        font-size:16px;
+    }
+    #main-mobile p{
+        font-size:12px;
+    }
+    #main-mobile a{
+        font-size:13px;
+    }
+    #products .title{
+        margin-top:35%;
+    }
+    #carouselExampleInterval{
+        margin-bottom:55%;
+    }
+    .vision{
+        position:absolute;
+        top:-40%;
+        left:10px;
+        bottom:0;
+        right:0;
+    }
+    .carousel-inner > .carousel-item > img {
+        height: 60vh;
+      }
+      .mobile-vision {
+        margin-top: 70%;
+        margin-bottom: 50px;
+    }
+    #vision-mobile .container{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .title::before{
+        content:'';
+        width:95px;
+        height:4px;
+        background: #C4C4C4;
+        position:absolute;
+        transform:translateY(35px);
+    }
+    .dance p{
+        font-size:15px;
+        color: #B4B4B4;
+    }
+    .dance {
+    margin-top: -44px;
+    margin-left: 20px;
+ } 
+ .move-down{
+     order:2;
+ }
+ .move-up{
+     order:1;
+ }
+}
