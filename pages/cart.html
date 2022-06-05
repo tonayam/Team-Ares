@@ -35,7 +35,9 @@
     <!-- Giyata code start -->
     <section class="logo-section">
       <div class="first text-center mt-4">
-        <img src="../Images/navbar-footer-images/default.png" alt="logo" />
+        <a href="../index.html"
+          ><img src="../Images/navbar-footer-images/default.png" alt="logo"
+        /></a>
       </div>
     </section>
     <nav class="navbar navbar-expand-lg bg">
@@ -57,14 +59,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-6 fw-normal">
             <li class="nav-item pe-4">
-              <a class="nav-link" aria-current="page" href="index">HOME</a>
+              <a class="nav-link" aria-current="page" href="../index.html"
+                >HOME</a
+              >
             </li>
             <li class="nav-item pe-4">
-              <a class="nav-link text-black" href="spaces.html">SPACES</a>
+              <a class="nav-link text-black" href="./catalog.html">CATALOG</a>
             </li>
             <li class="nav-item pe-4">
-              <a class="nav-link text-black" href="products&services.html"
-                >PRODUCTS & SERVICES</a
+              <a class="nav-link text-black" href="./prodcutDetail.html"
+                >PRODUCTS DETAILS</a
               >
             </li>
             <li class="nav-item pe-4">
@@ -74,14 +78,14 @@
               <a class="nav-link text-black" href="company.html">COMPANY</a>
             </li>
             <li class="nav-item pe-4">
-              <a class="nav-link text-black" href="media.html">MEDIA</a>
+              <a class="nav-link text-black" href="./checkout.html">CHECKOUT</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-black" href="contact.html">CONTACT</a>
             </li>
           </ul>
           <div class="nav-images d-flex">
-            <a class="first pe-4" href="#">
+            <a class="first pe-4" href="./cart.html">
               <img src="../Images/navbar-footer-images/cart.png" />
             </a>
             <a class="second pe-4" href="#">
@@ -100,18 +104,20 @@
       <div class="shopping">
         <div class="container my-5">
           <h1>Shopping Cart</h1>
-          <div class="arrow-text d-flex align-items-center">
-            <div class="arrow me-2">
-              <img
-                src="../Images/cartPage-images/Arrow-1.png"
-                alt="arrow"
-                width="31px"
-              />
+          <a href="./catalog.html">
+            <div class="arrow-text d-flex align-items-center">
+              <div class="arrow me-2">
+                <img
+                  src="../Images/cartPage-images/Arrow-1.png"
+                  alt="arrow"
+                  width="31px"
+                />
+              </div>
+              <div class="text-section">
+                <h6>Continue Shopping</h6>
+              </div>
             </div>
-            <div class="text-section">
-              <h6>Continue Shopping</h6>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
       <div class="price-section">
@@ -336,11 +342,13 @@
                       <h6><small>143,91 SAR</small></h6>
                     </div>
                   </div>
-                  <div class="d-grid">
-                    <button class="btn btn-dark mb-5" type="button">
-                      safe to checkout
-                    </button>
-                  </div>
+                  <a href="./checkout.html">
+                    <div class="d-grid">
+                      <button class="btn btn-dark mb-5" type="button">
+                        safe to checkout
+                      </button>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -356,7 +364,8 @@
           <div class="row justify-content-center">
             <div class="col ms-2 mb-3 shadow-sm">
               <div
-                class="product-1 d-flex align-items-center justify-content-center flex-column" data-aos="zoom-in"
+                class="product-1 d-flex align-items-center justify-content-center flex-column"
+                data-aos="zoom-in"
               >
                 <img
                   src="../Images/cartPage-images/11 1.png"
@@ -377,7 +386,8 @@
             </div>
             <div class="col ms-2 mb-3 shadow-sm">
               <div
-                class="product-1 d-flex align-items-center justify-content-center flex-column" data-aos="zoom-in"
+                class="product-1 d-flex align-items-center justify-content-center flex-column"
+                data-aos="zoom-in"
               >
                 <img
                   src="../Images/cartPage-images/10 1.png"
@@ -398,7 +408,8 @@
             </div>
             <div class="col ms-2 mb-3 shadow-sm">
               <div
-                class="product-1 d-flex align-items-center justify-content-center flex-column" data-aos="zoom-in"
+                class="product-1 d-flex align-items-center justify-content-center flex-column"
+                data-aos="zoom-in"
               >
                 <img
                   src="../Images/cartPage-images/9 61.png"
@@ -419,7 +430,8 @@
             </div>
             <div class="col ms-2 mb-3 shadow-sm">
               <div
-                class="product-1 d-flex align-items-center justify-content-center flex-column" data-aos="zoom-in"
+                class="product-1 d-flex align-items-center justify-content-center flex-column"
+                data-aos="zoom-in"
               >
                 <img
                   src="../Images/cartPage-images/8 1.png"
@@ -558,9 +570,8 @@
     <script>
       AOS.init({
         once: true,
-        duration: 1000
-      }
-      );
+        duration: 1000,
+      });
     </script>
   </body>
 </html>

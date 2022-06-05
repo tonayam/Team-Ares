@@ -8,6 +8,11 @@ body {
   font-family: "Fira Sans Condensed", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 .default-img img {
   width: 162px;
   height: 57px;
@@ -40,4 +45,8 @@ p {
 }
 .num2-text h6 {
   font-size: 15px !important;
+}
+
+a {
+  text-decoration: none;
 }
