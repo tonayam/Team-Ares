@@ -36,8 +36,12 @@ body {
 #section1 {
   position: relative;
   min-height: 50vh;
+  overflow: hidden;
 }
 
+#section2 {
+  overflow: hidden;
+}
 #section1::before {
   content: " ";
   position: absolute;
