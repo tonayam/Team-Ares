@@ -23,6 +23,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   </head>
   <body>
     <!-- NABVAR -->
@@ -114,12 +118,12 @@
     <section class="part-1 pt-5">
       <div class="container">
         <div class="row px-grid-responsive">
-          <div class="col-md-6">
-            <div class="product-img px-4">
+          <div class="col-md-12 col-lg-6">
+            <div class="product-img px-4" data-aos="fade-right">
               <img src="../Images/productDetail-images/first.png" alt="product-img" class="img-fluid" />
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-12 col-lg-6">
             <div class="product-detail">
               <h1 class="product-name">Product Name</h1>
               <p class="product-price fs-3">199,50 SAR</p>
@@ -186,7 +190,7 @@
     </section>
     <section class="part-4 bg-light py-4">
       <div class="container">
-        <div class="first-related">
+        <div class="first-related" data-aos="fade-right">
           <div class="title-related pb-3 text-center">
             <h3>Related Products</h3>
           </div>
@@ -194,7 +198,7 @@
             
             <div class="container ">
               <div class="row gy-5">
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-md-6 col-lg-3">
                   <div class="card">
                     <img src="../Images/productDetail-images/product1.png" class="product " alt="...">
                     <div class="card-body">
@@ -235,7 +239,7 @@
             </div>
           </div>
         </div>
-        <div class="first-recently py-5">
+        <div class="first-recently py-5" data-aos="fade-left">
           <div class="title-related pb-3 text-center">
             <h3>Recently Viewed Products</h3>
           </div>
@@ -397,7 +401,15 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
-     
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 1000
+      }
+      );
+    </script>
+    
     <script>
       const plus = document.getElementById("plus");
 const minus = document.getElementById("minus");

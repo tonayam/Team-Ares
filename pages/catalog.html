@@ -28,6 +28,10 @@
       src="https://kit.fontawesome.com/f66c11a544.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   </head>
   <body>
     <!-- NABVAR -->
@@ -110,7 +114,7 @@
         <div class="cards-bg">
           <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
-              <div class="bg-black p-3">
+              <div class="bg-black p-3" data-aos="flip-down">
                 <div class="card1">
                   <p class="text-secondary mt-3">Lorem Ipsum</p>
                   <h3 class="text-white">Categories</h3>
@@ -123,7 +127,7 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
-              <div class="">
+              <div class="" data-aos="zoom-in">
                 <div class="card2-img">
                   <div class="overlay-text">
                     <p class="text-white mb-1">Lorem Ipsum</p>
@@ -135,7 +139,7 @@
             </div>
 
             <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
-              <div class="">
+              <div class="" data-aos="zoom-in">
                 <div class="card3-img">
                   <div class="overlay-text">
                     <p class="text-white mb-1">Lorem Ipsum</p>
@@ -147,7 +151,7 @@
             </div>
 
             <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
-              <div class="">
+              <div class="" data-aos="zoom-in">
                 <div class="card4-img">
                   <div class="overlay-text">
                     <p class="text-white mb-1">Lorem Ipsum</p>
@@ -211,7 +215,7 @@
             />
           </div>
         </div>
-        <div class="row">
+        <div class="row" data-aos="zoom-in-up">
           <div class="col-lg-3 col-md-6 col-sm-12 py-5">
             <div class="card">
               <img
@@ -347,7 +351,7 @@
       <div class="container d-flex">
         <div class="row">
           <div class="col-lg-6 col-md-12">
-            <div class="left-text bg-white py-3 px-2 border">
+            <div class="left-text bg-white py-3 px-2 border" data-aos="fade-right">
               <h3 class="mt-4">Promotional Banner</h3>
               <p class="text-muted mb-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -357,7 +361,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-12">
-            <div class="right-img">
+            <div class="right-img" data-aos="fade-left">
               <img
                 src="../Images/catalogPage-images/promo-banner.png"
                 alt="banner"
@@ -480,5 +484,14 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 1500
+      }
+      );
+    </script>
   </body>
 </html>

@@ -86,6 +86,10 @@ body {
     position: relative;
 }
 
+#promo-banner {
+    overflow: hidden;
+}
+
 #promo-banner .conatiner {
     display: flex;
     flex-direction: row;

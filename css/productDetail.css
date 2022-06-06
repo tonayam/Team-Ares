@@ -45,6 +45,10 @@ body {
 .card {
   width: 14rem;
 }
+
+.part-4, .part-1 {
+  overflow: hidden;
+}
 @media (max-width: 768px) {
   .part-1 .row {
     gap: 20px;
