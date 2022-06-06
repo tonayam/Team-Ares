@@ -1,3 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
 #main {
   background: url(../Images/home-images/main\ image.png);
   background-size: cover;
@@ -96,8 +106,8 @@ small {
   bottom: 0;
   right: 0;
 }
-.btn{
-    border-radius:unset;
+.btn {
+  border-radius: unset;
 }
 .btn:focus {
   outline: none;
@@ -108,7 +118,7 @@ small {
 }
 
 #showroom {
-    overflow: hidden;
+  overflow: hidden;
 }
 /* Responsive page */
 @media screen and (max-width: 768px) {
