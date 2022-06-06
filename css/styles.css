@@ -99,7 +99,7 @@ span {
 small {
   font-size: 10px;
 }
-.show {
+.visible {
   position: absolute;
   top: 55px;
   left: 89%;
@@ -119,11 +119,11 @@ small {
 }
 /* Responsive page */
 @media screen and (max-width: 768px) {
-  .show {
+  /* .show {
     position: absolute;
     top: -29px;
     left: 77%;
-  }
+  } */
   .vision {
     position: absolute;
     top: 9%;
