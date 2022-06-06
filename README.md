@@ -2,8 +2,6 @@
 
 GETTING STARTED
 
-You can get started on this project by Forking the repository. After that, follow the steps below.
-
 1.  Clone the repository by Copying the HTTPS link. Open the terminal in your vs code and type in the following command
 
           git clone <https code from the github repository>
@@ -32,14 +30,13 @@ TASK/BRANCH ASSIGNMENT
 
 5. Amos Thibault Bikari : product-details-page (branch-name: productDetail-branch)
 
-6. Susan Mwende : home-page (branch-name: home-branch)
+6. Susan Mwende : Website Testing
 
 7. Susan Chekosgei : cart-page (branch-name: cart-branch)
 
 8. Igah Abiye : home-page (branch-name: home-branch)
 
-9. Oyinwumi
-
+9. Oyindamola Dorcase: home-page (branch-name: home-branch)
 
 COMMITING AND PUSHING TO GITHUB (TO YOUR REMOTE BRANCH)
 
@@ -51,21 +48,16 @@ After completing your assigned task on your branch in your local machine, commit
 4. Use the "git push" to send the updates in your local repository to your remote branch(the github website branch)
 
 NOTE : Commits made must contain complete tasks.
-          
+
 CREATING A PULL REQUEST
-          
+
 After your remote branch has been updated, you'll need to create a pull request to the "develop branch". This is basically you asking for your codes to be added to the branch that's incharge of receiving all the other branch codes.
- 
- 1. Click on the "Pull Requests" option at the top of the github repository page
-          
- 2. There should be a "New Pull Request" option at the right side of the screen. Clicking on it will take you to a "Compare Changes" page
-          
- 3. On this page, click on the "base" option (default is main) and select develop branch as the base branch. Then click on the "compare" option and select the branch you worked on. (These actions basically tell github to compare your branch to the develop branch, and put all the changes into the develop branch).
-          
- 4. Click on the "Create Pull Request". This will take you to the "Open a Pull Request" page.
-          
- 5. In the field available for comments, you'll be required to post 3 screenshots. A screenshot of your webpage on; desktop view, tablet view, and mobile view. Contact the project administrator for tips on how to take the screenshots, if need be.
-          
- 6. After all the files have been uploaded, you can go ahead and create the pull request.
- 
+
+1.  Click on the "Pull Requests" option at the top of the github repository page
+2.  There should be a "New Pull Request" option at the right side of the screen. Clicking on it will take you to a "Compare Changes" page
+3.  On this page, click on the "base" option (default is main) and select develop branch as the base branch. Then click on the "compare" option and select the branch you worked on. (These actions basically tell github to compare your branch to the develop branch, and put all the changes into the develop branch).
+4.  Click on the "Create Pull Request". This will take you to the "Open a Pull Request" page.
+5.  In the field available for comments, you'll be required to post 3 screenshots. A screenshot of your webpage on; desktop view, tablet view, and mobile view. Contact the project administrator for tips on how to take the screenshots, if need be.
+6.  After all the files have been uploaded, you can go ahead and create the pull request.
+
 Note: Names will be added to this document after further task assignments have been done

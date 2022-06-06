@@ -12,6 +12,10 @@ body {
   position: relative;
 }
 
+.navbar-toggler-icon img {
+  height: 3rem;
+}
+
 .hero-image {
   background-image: linear-gradient(
       to bottom,
