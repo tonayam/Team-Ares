@@ -127,6 +127,10 @@ small {
     top: -29px;
     left: 77%;
   } */
+
+  .visible {
+    top: 10px;
+  }
   .vision {
     position: absolute;
     top: 9%;
