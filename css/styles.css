@@ -117,6 +117,9 @@ small {
 .creative {
   font-size: 16px;
 }
+#showroom {
+  /* overflow: hidden; */
+}
 /* Responsive page */
 @media screen and (max-width: 768px) {
   /* .show {
